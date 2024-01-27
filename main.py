@@ -76,3 +76,4 @@ def get_all_restaurants():
         for restaurant in resturants:
             rows.append(f"{restaurant.id}, {restaurant.name}, {restaurant.address}")
     return rows
+
